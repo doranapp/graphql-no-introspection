@@ -1,5 +1,5 @@
 {
-  "name": "graphql-no-introspection",
+  "name": "@doranapp/graphql-no-introspection",
   "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
@@ -12,5 +12,27 @@
   },
   "devDependencies": {
     "typescript": "^5.1.6"
-  }
+  },
+  "types": "./lib/index.d.ts",
+  "description": "## Installation",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doranapp/graphql-no-introspection.git"
+  },
+  "keywords": [
+    "graphql",
+    "introspection",
+    "disable",
+    "introspection",
+    "no",
+    "introspection"
+  ],
+  "author": "imandrewdoan",
+  "bugs": {
+    "url": "https://github.com/doranapp/graphql-no-introspection/issues"
+  },
+  "homepage": "https://github.com/doranapp/graphql-no-introspection#readme"
 }
