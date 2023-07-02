@@ -1,9 +1,9 @@
-# graphql-no-introspection
+# @doranapp/graphql-no-introspection
 
 ## Installation
 
 ```bash
-yarn add graphql-no-introspection
+yarn add @doranapp/graphql-no-introspection
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ import express from 'express';
 import { createHandler } from 'graphql-http/lib/use/express';
 import { graphqlSchema } from './schema';
 
-import { disableIntrospectionRule } from 'graphql-no-introspection';
+import { disableIntrospectionRule } from '@doranapp/graphql-no-introspection';
 
 const app = express();
 app.use(

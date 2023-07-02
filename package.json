@@ -25,10 +25,8 @@
   "keywords": [
     "graphql",
     "introspection",
-    "disable",
-    "introspection",
-    "no",
-    "introspection"
+    "disable introspection",
+    "no introspection"
   ],
   "author": "imandrewdoan",
   "bugs": {
