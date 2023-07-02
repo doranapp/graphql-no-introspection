@@ -1,0 +1,16 @@
+{
+  "name": "graphql-no-introspection",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "graphql": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
