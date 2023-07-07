@@ -1,16 +1,17 @@
 {
   "name": "@doranapp/graphql-no-introspection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc --build",
     "prepare": "npm run build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "graphql": "*"
   },
   "devDependencies": {
+    "graphql": "*",
     "typescript": "^5.1.6"
   },
   "types": "./lib/index.d.ts",
