@@ -14,14 +14,14 @@ import express from 'express';
 import { createHandler } from 'graphql-http/lib/use/express';
 import { graphqlSchema } from './schema';
 
-import { disableIntrospectionRule } from '@doranapp/graphql-no-introspection';
+import { noIntrospection } from '@doranapp/graphql-no-introspection';
 
 const app = express();
 app.use(
   '/graphql',
   createHandler({
     schema: graphqlSchema,
-    validationRules: [disableIntrospectionRule],
+    validationRules: [noIntrospection],
   })
 );
 ```
